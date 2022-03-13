@@ -1,0 +1,8 @@
+version: "3.9" 
+services:
+  riscv-toolchain:
+    image: riscv-toolchain
+    container_name: riscv-toolchain
+    volumes:
+      - ./src:/workshop/src
+    tty: true
